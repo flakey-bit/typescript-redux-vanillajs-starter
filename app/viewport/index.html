@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .row {
+            margin-top: 20px;
+        }
+
+        table.results {
+            width: 50%;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        table.results tr th {
+            background-color: lightgray;
+            border: 1px solid #000;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <label>
+            GST rate
+            <input type="number" id="gstRateInput" min="0" max="1" step="0.01">
+        </label>
+    </div>
+    <div class="row">
+        <label>
+                Cost
+                <input type="number" id="costInput" min="0">
+        </label>
+        <label>
+                Quantity
+                <input type="number" id="quantityInput" min="0">
+        </label>
+        <input type="button" id="resetButton" value="Reset">
+    </div>
+    <div class="row">
+        <table class="results">
+            <tr>
+                <th>Line item total</th>
+                <th>GST Amount</th>
+                <th>Grand total</th>
+            </tr>
+            <tr>
+                <td id="lineItemTotalOutput"></td>
+                <td id="gstAmountOutput"></td>
+                <td id="grandTotalOutput"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
