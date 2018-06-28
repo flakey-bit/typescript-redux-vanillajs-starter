@@ -1,5 +1,5 @@
 # typescript-redux-vanillajs-starter
-A starter for strongly-typed redux vanilla JS apps. Uses the fantastic [typesafe-actions](https://github.com/piotrwitek/typesafe-actions") along with webpack, karma and jasmine.
+A starter for strongly-typed redux vanilla JS apps. Uses the fantastic [typesafe-actions](https://github.com/piotrwitek/typesafe-actions) along with webpack, karma and jasmine.
 
 If you're like me and like the purity of redux/functional programming but can't live without strong typing everywhere (Typescript all the things!) then this is for you.
 
